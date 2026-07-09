@@ -31,7 +31,7 @@ body {
 
 /* Barras Negras (Superior e Inferior) */
 .header-banner, 
-.footer.banner {
+.footer-banner {
     width: 90%; /* Ajustado para dejar márgenes a los lados como en la foto */
     background-color: #333333;
     color: #ffffff;
@@ -44,7 +44,7 @@ body {
 }
 
 /* Ajuste específico para la barra inferior */
-.footer.banner {
+.footer-banner {
     margin-top: 15px;
     margin-bottom: 0;
 }
