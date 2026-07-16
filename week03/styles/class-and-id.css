@@ -44,6 +44,11 @@ code {
     color: white;
     width: fit-content;
 }
+#note-2 {
+    background-color: #1ef;
+    color: red;
+    width: fit-content;
+}
 
 #note code {
     color: yellow;
