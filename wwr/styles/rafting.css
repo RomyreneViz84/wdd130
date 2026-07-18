@@ -50,12 +50,11 @@ footer {
     position: relative;
 }
 .hero img {
-    position: absolute;
     display: block;
     width: 100%;
     height: auto;
 }
-h1 {
+.hero h1 {
   position: absolute;
   top: 20px;
   width: 100%;
@@ -68,4 +67,12 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
+    height: auto;
+}
+.hero article {
+    position: absolute;
+    bottom: 20px; 
+    left: 20px;
+    right: 20px;
+    z-index: 2;  
 }
