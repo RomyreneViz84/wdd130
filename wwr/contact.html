@@ -21,7 +21,7 @@
         </nav>
     </header>
     <main>
-        <div>
+        <div class="information">
             <h1>RAPID PULSE RAFTING</h1>
             <p>127B San Francisco Street</p>
             <p>Reference: Next to Oso Cafe</p>
@@ -35,65 +35,66 @@
             </div>
             <div>
                 <form>
-                    <div class="">
-                        <label for="fullname">Full Name:</label>
+                    <div class="form-group align-center">
+                        <label for="fullname">Name:</label>
                         <input type="text" id="fullname" name="fullname" required>
                     </div>
-                    <div class="">
+                    <div class="form-group align-center">
                         <label for="useremail">Email:</label>
                         <input type="email" id="useremail" name="useremail" required>
                     </div>
                     <!-- 1. Purpose of Message (Radio Buttons) -->
-                    <div class="form-group">
-                        <label class="form-label">Purpose of the message:</label>
+                    <div class="form-group align-top">
+                        <label class="form-label">Message Purpose:</label>
                         <div class="radio-group">
-                        <label class="radio-option">
+                        <label class="radio-label">
                             <input type="radio" name="purpose" value="general_inquiry" required checked>
                             <span>General Inquiry</span>
                         </label>
-                        <label class="radio-option">
+                        <label class="radio-label">
                             <input type="radio" name="purpose" value="reservation_question">
                             <span>Reservation Question</span>
                         </label>
-                        <label class="radio-option">
+                        <label class="radio-label">
                             <input type="radio" name="purpose" value="website_suggestion">
                             <span>Website Suggestion</span>
                         </label>
                         </div>
                     </div>
                     <!-- 2. Message Textarea -->
-                    <div class="Form-group">
+                    <div class="Form-group stackerd">
                         <label for="message" class="form-label">Message:</label>
                         <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
                     </div>
                     <!-- 3. Newsletter Checkbox -->
-                    <div class="form-group">
+                    <div class="checkbox-group">
                         <label class="checkbox-option">
                         <input type="checkbox" name="newsletter_subscribe" value="yes">
                         <span>Please subscribe me to the monthly newsletter</span>
                         </label>
                     </div>
                     <!-- 4. Submit Button -->
-                        <button type="submit" class="btn-submit">Send Message</button>
+                    <button type="submit" class="btn-submit">Send Message Touch Here</button>
                 </form>
             </div>
             
         </section>
-        <section class="adventure">
+        <section class="adventure1">
             <h2>We Are Here To Serve You!</h2>
-            <div class="adventure-content">
+            <div class="adventure-content1">
             <figure>
-                <img src="images/lunahuana.jpg" alt="lunahuana">
-                <figcaption>Rio-Lunahuana</figcaption>
+                <img src="images/supervisor.jpg" alt="supervisor">
+                <figcaption>Supervisor</figcaption>
             </figure>
             <figure>
-                <img src="images/rio-camana.jpg" alt="rio-camana">
-                <figcaption>Rio-Camana</figcaption>
+                <img src="images/manager.jpg" alt="manager">
+                <figcaption>Manager</figcaption>
             </figure>
             <figure>
-                <img src="images/rio-chili.jpg" alt="rio-chili">
-                <figcaption>Rio-Chili</figcaption>
+                <img src="images/field-leader.jpg" alt="field-lider">
+                <figcaption>Field Lider</figcaption>
             </figure>
+            </div>
         </section>
     </main>
     <footer>
