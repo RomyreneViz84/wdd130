@@ -201,6 +201,7 @@ footer {
 iframe{
   width: 450px;
   height: 400px;
+  border: 0;
 }
                                       /*form stylist*/
 form {
@@ -292,12 +293,12 @@ textarea {
   margin: 0;
 }
 button {
-    background-color: rgb(189, 189, 194);
+    background-color: rgba(0, 0, 0, 0.5);
     color: #fff;
     margin: 1rem auto;
     display: block;
     border-radius: .5rem;
-    border: 1px solid rgb(0 0 0 / 10%);
+    border: 1px solid rgb(0 0 0 / 80%);
     width: 500px;
     height: 30px;
 }
