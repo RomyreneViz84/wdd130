@@ -21,9 +21,20 @@ header, main, footer {
   width: 100%;
   margin: 0 auto;
 }
-header{
+header {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 120px 1fr 120px;
+  place-items: center;
+  border-bottom: 1px solid #ccc;
+  max-width: 1000px;
   border: 2px solid rgba(10, 10, 10, 0.658);
   background-color: aquamarine;
+}
+header img {
+  margin: 0 0.25rem 0 1rem;
+  width: 64px;
+  height: auto;
 }
 h1, h2 {
   font-family: var(--heading-font);
@@ -93,19 +104,7 @@ footer {
 .text {
   color:#ffffff;
 }
-header {
-  margin: 1rem auto;
-  display: grid;
-  grid-template-columns: 120px 1fr 120px;
-  place-items: center;
-  border-bottom: 1px solid #ccc;
-  max-width: 1000px;
-}
-header img {
-  margin: 0 0.25rem 0 1rem;
-  width: 64px;
-  height: auto;
-}
+
 .icons {
   display: flex;
   list-style: none;
@@ -188,7 +187,7 @@ header img {
 .adventure-content figcaption {
   font-size: 0.85rem;
   margin-top: 6px;
-  color: var(--accent1-color)
+  color: var(--accent1-color);
 }
 .information {
   padding: 1rem;
@@ -216,7 +215,7 @@ form {
 
 .form-group {
   display: flex;
-  gap: 20 px
+  gap: 20px;
 }
 .form-group.align-center {
   align-items: center;
