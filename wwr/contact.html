@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="web where you can contact us.">
+    <meta name="description" content="Have questions or need assistance? Get in touch with our team today. Send us a message, call, or visit our office.">
     <meta name="author" content="ROMY VIZCARRA">
     <link rel="stylesheet" href="styles/rafting.css">
     <title>Contact Us - RAPID PULSE RAFTING</title>
@@ -48,15 +48,15 @@
                         <label class="form-label">Message Purpose:</label>
                         <div class="radio-group">
                         <label class="radio-label">
-                            <input type="radio" name="purpose" value="general_inquiry" required checked>
+                            <input type="radio" id="purpose" name="purpose" value="general_inquiry" required checked>
                             <span>General Inquiry</span>
                         </label>
                         <label class="radio-label">
-                            <input type="radio" name="purpose" value="reservation_question">
+                            <input type="radio" id="purpose" name="purpose" value="reservation_question">
                             <span>Reservation Question</span>
                         </label>
                         <label class="radio-label">
-                            <input type="radio" name="purpose" value="website_suggestion">
+                            <input type="radio" id="purpose " name="purpose" value="website_suggestion">
                             <span>Website Suggestion</span>
                         </label>
                         </div>
@@ -64,7 +64,7 @@
                     <!-- 2. Message Textarea -->
                     <div class="Form-group stackerd">
                         <label for="message" class="form-label">Message:</label>
-                        <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                        <textarea id="message" id="purpose" name="message" placeholder="Type your message here..." required></textarea>
                     </div>
                     <!-- 3. Newsletter Checkbox -->
                     <div class="checkbox-group">
