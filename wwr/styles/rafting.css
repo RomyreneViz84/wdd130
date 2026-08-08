@@ -224,7 +224,11 @@ h1, h2 {
   min-width: 0;
   width: 100%;
 }
-
+.adventure-content1 figure {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
 .adventure-content {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -236,7 +240,9 @@ h1, h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
-  align-items: start;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .adventure-content img {
@@ -245,6 +251,14 @@ h1, h2 {
   border-radius: 4px;
   object-fit: cover;
   display: block;
+}
+.adventure-content1 img {
+  width: 100px;
+  height: 120px;
+  border-radius: 4px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 8px auto;
 }
 
 .adventure-content figcaption {
